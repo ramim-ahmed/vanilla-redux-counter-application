@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Redux Counter App</title>
+    <!-- import redux cdn package -->
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+</head>
+
+<body class=" bg-slate-100">
+    <div class=" bg-white p-4 text-center">
+        <h1 class=" text-xl my-6">Counter Application | Vanilla Redux</h1>
+        <div>
+            <h2 class=" text-2xl " id="count"></h2>
+            <div class=" mt-6 space-x-8">
+                <button id="increment" class=" bg-blue-500 px-4 text-white py-1">increment</button>
+                <button id="decrement" class="bg-red-300 px-4 text-white py-1">decrement</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
